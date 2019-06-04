@@ -169,5 +169,5 @@ def check(s):
     print(REG)
     return True
 
-ans=check(PS3)
+ans=check(PS4)
 print(ans)

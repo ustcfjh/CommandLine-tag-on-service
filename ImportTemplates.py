@@ -135,12 +135,12 @@ class Templates():
             else:
                 parameterstring=text[keyEndPos+1:]
                 parameterstringreg=self.keywithregp[key]
-                print("参数串正则表达式：")
-                print(parameterstringreg)
+                #print("参数串正则表达式：")
+                #print(parameterstringreg)
                 pattern = re.compile(r''+parameterstringreg)
-                m=pattern.search(parameterstring)
+                m=pattern.findall(parameterstring)
                 #print(parameterstring)
-                print("匹配结果 "+str(m))
+                #print("匹配结果 "+str(m))
                 if(m):    #匹配成功
                     try:
                         result=os.system(key+".exe "+parameterstring)
