@@ -20,5 +20,5 @@
 
 只需额外安装 prompt_toolkit 工具库，命令行输入 python main.py 运行 
 
-CommandTemplate.docx 文件中存放命令行模板，模板的定义在“嵌入式系统的命令行系统.docx”中的附加word文档“数通命令参考写作模板&样例”
+CommandTemplate.docx 文件中存放命令行模板，模板的定义在“嵌入式系统的命令行系统.docx”中的附加word文档“数通命令参考写作模板&样例”中
 
