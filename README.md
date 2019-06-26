@@ -18,7 +18,17 @@
 
 运行环境： Window
 
-只需额外安装 prompt_toolkit 工具库，命令行输入 python main.py 运行 
+需额外安装 prompt_toolkit，pygments,docx.
 
-CommandTemplate.docx 文件中存放命令行模板，模板的定义在“嵌入式系统的命令行系统.docx”中的附加word文档“数通命令参考写作模板&样例”中
+pip install prompt_toolkit
+
+pip install pygments
+
+pip install docx
+
+使用pip安装完成之后，使用cmd，切换到当前项目所在文件夹，输入 python main.py 运行 
+
+CommandTemplate.docx 文件中存放命令行模板
+
+模板的定义在《》嵌入式系统的命令行系统.docx》中的附加word文档《数通命令参考写作模板&样例》中
 
